@@ -1,0 +1,11 @@
+<div class="container">
+<form [formGroup]="myForm" (ngSubmit)='onSubmit()'>
+  <mat-form-field class="example-full-width" style="width: 100%">
+    <input matInput placeholder="Enter Git-ID" formControlName="username" >
+  </mat-form-field>
+  <button type="submit" mat-raised-button color="warn" >Find</button></form>
+  <mat-spinner *ngIf=showSpinner></mat-spinner>
+  <app-user-data-display [userData]=data></app-user-data-display></div>
+  <div style="width: 100%;"><mat-toolbar class="noData" color="accent" *ngIf=!errorMsg>No Data to Display</mat-toolbar></div>
+
+  
