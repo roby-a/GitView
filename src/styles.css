@@ -24,9 +24,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 297px !important;
     margin-left: 491px;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 87px;
 }
-.mat-toolbar
+.header
 {
     position: fixed;
     top: 0vh;
